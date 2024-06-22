@@ -1,0 +1,147 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* #66768A #DBDFE2 #161F2A */
+
+nav {
+  background: #66768A;
+  height: 55px;
+  padding-top: 10px;
+}
+
+
+nav ul li {
+  float: left;
+  width: 25%;
+  list-style-type: none;
+  color: white
+}
+
+nav img {
+  height: 40px;
+  width: 50px;
+}
+
+nav a {
+  padding: 7px 10px;
+  background-color: white;
+  margin-right: 10px;
+  border-radius: 5px;
+  float: right;
+  color: #66768A;
+  text-decoration: none;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  padding-top: 100px;
+  height: 500px;
+  background: #66768A;
+}
+
+main p, .justText p {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+
+.justText {
+  text-align: center;
+  height: 400px;
+  padding-top: 150px;
+}
+
+.visit {
+  background-color: #DBDFE2;
+  height: 500px;
+}
+
+.visit section {
+  float: left;
+  height: 80%;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px;
+}
+
+.visit section p {
+  padding-top : 1%;
+  padding-bottom: 2%;
+  width: 50%;
+  margin: auto;
+}
+
+h3 {
+  padding-top: 30px;
+}
+
+
+footer {
+  background: #161F2A;
+  color: white;
+}
+footer .icons li {
+  float: left;
+  width: 5%;
+}
+
+footer .sectionLeft {
+  float: left;
+  width: 30%
+}
+
+footer section {
+  float: right;
+  width: 30%;
+}
+
+footer li {
+  list-style-type: none;
+  
+}
+
+
+.smallText {
+  clear: both;
+  border-top: 1px solid white;
+  width: 100vw;
+  padding: 1%;
+  text-align: center;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
