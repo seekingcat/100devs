@@ -1,0 +1,99 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+
+}
+
+nav {
+  background-color: #F5F9FC;
+}
+
+nav > * {
+  float: left;
+  width: 33.3333%
+}
+
+nav > a {
+  float: right; 
+  width: 5%;
+  padding: 15px 30px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  margin-right: 5%;
+  margin-top: 2%;
+}
+
+nav ul li {
+  float: left;
+  width: 25%;
+}
+
+main {
+  clear: both;
+  height: 600px;
+  padding-top: 10em;
+  background-color: #F5F9FC;
+}
+
+main > section {
+  float: left;
+  width: 50%;
+}
+
+main img {
+  float: right;
+  width: 50%;
+  height: 400px
+}
+
+
+
+
+.features {
+  clear: both;
+}
+
+.features section {
+  float: left;
+  width: 25%;
+  background-color: #F5F9FC;
+}
+
+footer {
+
+  
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

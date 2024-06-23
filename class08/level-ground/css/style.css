@@ -67,6 +67,7 @@ main {
   padding-top: 100px;
   height: 500px;
   background: #66768A;
+  color: white;
 }
 
 main p, .justText p {
@@ -81,7 +82,12 @@ main p, .justText p {
 .justText {
   text-align: center;
   height: 400px;
-  padding-top: 150px;
+  padding-top: 100px;
+}
+
+.justText p {
+  width: 30%;
+  padding-bottom: 3%;
 }
 
 .visit {
@@ -95,14 +101,20 @@ main p, .justText p {
   width: 50%;
   margin: 0 auto;
   text-align: center;
-  padding: 100px;
+  padding: 3%;
 }
 
 .visit section p {
   padding-top : 1%;
   padding-bottom: 2%;
   width: 50%;
-  margin: auto;
+  margin: 30px auto;
+}
+
+.visitButton {
+  padding: 15px 30px;
+  border: 1px solid black;
+  border-radius: 2%;
 }
 
 h3 {
@@ -121,26 +133,39 @@ footer .icons li {
 
 footer .sectionLeft {
   float: left;
-  width: 30%
+  width: 30%;
+  padding-bottom: 2%;
+}
+
+.sectionLeft h4 {
+  margin-left: 6%;
 }
 
 footer section {
   float: right;
   width: 30%;
+  padding-top: 1%;
 }
 
 footer li {
   list-style-type: none;
-  
 }
 
+footer h4 {
+  clear: both;
+  padding-top: 1%;
+}
+.footerLinks li {
+  float: left;
+  width: 15%;
+  padding-top: 1%;
+}
 
 .smallText {
   clear: both;
   border-top: 1px solid white;
   width: 100vw;
   padding: 1%;
-  text-align: center;
 }
 /******************************************
 /* ADDITIONAL STYLES
