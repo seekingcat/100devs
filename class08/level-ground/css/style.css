@@ -114,7 +114,8 @@ main p, .justText p {
 .visitButton {
   padding: 15px 30px;
   border: 1px solid black;
-  border-radius: 2%;
+  border-radius: 5%;
+  text-decoration: none;
 }
 
 h3 {
@@ -128,7 +129,7 @@ footer {
 }
 footer .icons li {
   float: left;
-  width: 5%;
+  width: 10%;
 }
 
 footer .sectionLeft {
@@ -141,7 +142,7 @@ footer .sectionLeft {
   margin-left: 6%;
 }
 
-footer section {
+.address  {
   float: right;
   width: 30%;
   padding-top: 1%;
@@ -170,3 +171,59 @@ footer h4 {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+@media screen and (max-width: 1024px) {
+  .justText p {
+    width: 50%;
+  }
+
+  .visit section p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .visit  {
+    width: 100%;
+  }
+  
+  .visit section img {
+    display: none;
+  }
+
+  .justText {
+    height: 450px;
+  }
+
+  footer .icons li {
+    float: left;
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+ main p, .justText p {
+  width: 90%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+ } 
+
+ .visit section {
+  width: 100%;
+  background-color: white;
+  height: 60%
+ }
+
+ .sectionLeft  {
+  display: none;
+ }
+
+
+ .icons {
+  width: 50%
+ }
+
+ .address {
+  width: 50%
+ }
+}
