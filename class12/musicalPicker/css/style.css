@@ -1,0 +1,75 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/*
+
+wicked color #A9E436
+mean girls #F98AC3
+matilda #011E6A
+hadestown #E30613
+
+
+
+*/
+h1,
+h2 {
+  text-align: center;
+  color: white;
+  font-family: 'Dancing Script', 'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-size: 4em;
+}
+ul {
+  /* /* width: 300px; */
+  height: 300px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+body {
+  background: url('https://images.unsplash.com/photo-1514306191717-452ec28c7814?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'),
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+#gifHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#wicked {
+  background: #a9e436;
+}
+#meangirls {
+  background: #fb0276;
+}
+#matilda {
+  background: #011e6a;
+}
+#hadestown {
+  background: #e30613;
+}
