@@ -69,3 +69,14 @@ function copySorted(arr) {
 console.log(copySorted(['HTML', 'JavaScript', 'CSS']));
 
 // Create a function copySorted(arr) that returns such a copy.
+
+// You have an array of user objects, each one has user.name. Write the code that converts it into an array of names.
+let john = { name: 'John', age: 25 };
+let pete = { name: 'Pete', age: 30 };
+let mary = { name: 'Mary', age: 28 };
+
+let users = [john, pete, mary];
+
+let names = [];
+users.forEach((user) => names.push(user.name));
+console.log(names);
