@@ -1,12 +1,12 @@
 # Contract Killer
+
 ### The popular open-source contract for web professionals by [Stuff & Nonsense](https://stuffandnonsense.co.uk/)
 
-* Originally published: 23rd December 2008
-* Revised date: March 15th 2016 
-* [Original post](http://stuffandnonsense.co.uk/projects/contract-killer/)
+- Originally published: 23rd December 2008
+- Revised date: March 15th 2016
+- [Original post](http://stuffandnonsense.co.uk/projects/contract-killer/)
 
-* * *
-
+---
 
 **Between** [company name]
 
@@ -117,6 +117,8 @@ We’re sure you understand how important it is as a small business that you pay
 
 **Payment details**
 
+50% in advance
+
 **Payment schedule**
 
 We issue invoices electronically. Our payment terms are [number] days from the date of invoice by BACS or the SWIFT international payments system. All proposals are quoted in [currency] and payments will be made at the equivalent conversion rate at the date the transfer is made.
@@ -135,10 +137,10 @@ Although the language is simple, the intentions are serious and this contract is
 
 Oh and don’t forget those men with big dogs.
 
-### The dotted line 
+### The dotted line
 
 Signed by and on behalf of **company name**
 Signed by and on behalf of **customer name
-Date **date**
+Date **date\*\*
 
 Everyone should sign above and keep a copy for their records.
